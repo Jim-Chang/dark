@@ -1,0 +1,7 @@
+html[dark-theme-active] {
+  filter: invert(90%) hue-rotate(180deg) brightness(105%) contrast(105%);
+}
+
+html[dark-theme-active] img {
+  filter: invert(90%) hue-rotate(180deg) brightness(105%) contrast(105%);
+}
