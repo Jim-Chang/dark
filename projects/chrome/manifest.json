@@ -1,0 +1,25 @@
+{
+  "name": "Dark",
+  "version": "1.0",
+  "description": "Inject Dark Theme To Any Website",
+  "manifest_version": 3,
+  "permissions": [
+      "storage",
+      "activeTab",
+      "webNavigation"
+  ],
+  "action": {
+      "default_popup": "popup-panel/index.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
