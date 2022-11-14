@@ -3,8 +3,8 @@
     <span>Enable</span><input type="checkbox" [(ngModel)]="isEnable" (change)="onChangeIsEnable()">
   </div>
   <div>
-    <h3>Excluded Host List</h3>
-      <button (click)="onClickAddBtn()">Add To Exclude</button>
-      <button (click)="onClickRemoveBtn()">Remove From Exclude</button>
+    <h3>This website</h3>
+      <button (click)="onClickAddToExcludeBtn()">Don't Apply Dark Theme</button>
+      <button (click)="onClickRemoveFromExcludeBtn()">Apply Dark Theme</button>
   </div>
 </div>

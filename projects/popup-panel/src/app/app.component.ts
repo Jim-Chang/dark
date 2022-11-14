@@ -24,7 +24,7 @@ export class AppComponent {
       .subscribe();
   }
 
-  onClickAddBtn(): void {
+  onClickAddToExcludeBtn(): void {
     this.tabService
       .getActiveUrl$()
       .pipe(
@@ -38,7 +38,7 @@ export class AppComponent {
       .subscribe();
   }
 
-  onClickRemoveBtn(): void {
+  onClickRemoveFromExcludeBtn(): void {
     this.tabService
       .getActiveUrl$()
       .pipe(
