@@ -6,7 +6,7 @@
   "permissions": [
       "storage",
       "activeTab",
-      "webNavigation"
+      "contextMenus"
   ],
   "action": {
       "default_popup": "popup-panel/index.html"
