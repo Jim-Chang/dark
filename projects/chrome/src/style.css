@@ -5,6 +5,7 @@ html[dark-theme-active] {
 html[dark-theme-active] img,
 html[dark-theme-active] picture,
 html[dark-theme-active] video,
-html[dark-theme-active] iframe {
+html[dark-theme-active] iframe,
+html[dark-theme-active] *[style*="background-image"] {
   filter: invert(90%) hue-rotate(180deg) brightness(105%) contrast(105%);
 }
