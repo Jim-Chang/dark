@@ -11,7 +11,7 @@ async function loadConfig() {
 
 async function render() {
   const config = await loadConfig();
-  const isEnable = !!config['isEnable'];
+  const isEnable = config['isEnable'] ?? true;
   const excludeHosts = config['excludeHosts'] ?? [];
   const host = new URL(location.href).host;
   if (isEnable && !excludeHosts.includes(host)) {

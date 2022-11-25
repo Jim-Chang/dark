@@ -13,7 +13,7 @@ export class AppComponent {
 
   constructor(private configService: ConfigService, private tabService: TabService) {
     this.configService.loadAllConfig$().subscribe((ret) => {
-      this.isEnable = ret['isEnable'];
+      this.isEnable = ret['isEnable'] ?? true;
     });
   }
 
