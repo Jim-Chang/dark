@@ -1,10 +1,11 @@
 <div class="container">
-  <div>
-    <span>Enable</span><input type="checkbox" [(ngModel)]="isEnable" (change)="onChangeIsEnable()">
+  <div class="switch">
+    <img class="icon" src="./assets/sun-128.png"><mat-slide-toggle [(ngModel)]="isEnable" (change)="onChangeIsEnable()"></mat-slide-toggle><img class="icon" src="./assets/moon-128.png">
   </div>
+  <hr>
   <div>
     <h3>This website</h3>
-      <button (click)="onClickAddToExcludeBtn()">Don't Apply Dark Theme</button>
-      <button (click)="onClickRemoveFromExcludeBtn()">Apply Dark Theme</button>
+      <button mat-raised-button (click)="onClickAddToExcludeBtn()">Don't Apply Dark</button>
+      <button mat-raised-button color="primary" (click)="onClickRemoveFromExcludeBtn()">Apply Dark</button>
   </div>
 </div>
