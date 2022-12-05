@@ -1,11 +1,13 @@
 html[dark-theme-active] {
   filter: invert(90%) hue-rotate(180deg) brightness(105%) contrast(105%);
+  background: white;
 }
 
 html[dark-theme-active] img,
 html[dark-theme-active] picture,
 html[dark-theme-active] video,
 html[dark-theme-active] iframe,
+html[dark-theme-active] canvas,
 html[dark-theme-active] *[style*="background-image"],
 html[dark-theme-active] *[style*="background: url"] {
   filter: invert(90%) hue-rotate(180deg) brightness(105%) contrast(105%);
