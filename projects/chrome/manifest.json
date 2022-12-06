@@ -6,7 +6,8 @@
   "permissions": [
       "storage",
       "activeTab",
-      "contextMenus"
+      "contextMenus",
+      "downloads"
   ],
   "icons": {
     "128": "dark-128.png"
