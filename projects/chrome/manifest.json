@@ -1,6 +1,6 @@
 {
   "name": "Dark",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Inject Dark Theme To Any Website",
   "manifest_version": 3,
   "permissions": [
