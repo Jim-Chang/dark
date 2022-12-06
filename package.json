@@ -10,6 +10,7 @@
     "watch:chrome": "webpack --config projects/chrome/webpack.config.js -w",
     "watch:popup": "ng run popup-panel:build:development --watch",
     "watch": "npm-run-all --parallel watch:*",
+    "crx": "node package-crx.js",
     "test": "ng test",
     "clean": "rimraf ./dist"
   },
@@ -35,6 +36,7 @@
     "@angular/compiler-cli": "^14.2.0",
     "@types/chrome": "^0.0.197",
     "@types/jasmine": "~4.0.0",
+    "crx": "^5.0.1",
     "jasmine-core": "~4.3.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
