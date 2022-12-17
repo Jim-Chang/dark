@@ -3,6 +3,10 @@ html[dark-theme-active] {
   background: white;
 }
 
+html[dark-theme-active] pre {
+  color: black;
+}
+
 html[dark-theme-active] img,
 html[dark-theme-active] picture,
 html[dark-theme-active] video,
