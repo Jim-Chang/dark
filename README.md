@@ -2,7 +2,7 @@
 
 This is a Chrome extension that allows all websites to be converted to a dark theme.
 
-<img src="img/dark.jpg" style="max-width:1000px; margin: 0 auto; display: block;"/>
+<img src="img/dark-banner.jpg" style="max-width:1000px; margin: 0 auto; display: block;"/>
 
 ## Introduction
 
